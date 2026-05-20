@@ -136,7 +136,7 @@ Do not scan any system or network without permission.
 
 **Prins Gajera**
 
-GitHub: https://github.com/your-username
+GitHub:https://github.com/PrinshiGuj/Port-Service-Scanner.git
 
 ---
 
