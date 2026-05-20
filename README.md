@@ -48,19 +48,6 @@ A professional Python-based **Port & Service Scanner** that scans open ports, id
 
 ---
 
-# 📂 Project Structure
-
-```bash
-advanced-port-scanner/
-│
-├── scanner.py
-├── reports/
-│   └── scan_report_target.html
-└── README.md
-```
-
----
-
 # ⚙️ Installation
 
 ## 1️⃣ Clone Repository
