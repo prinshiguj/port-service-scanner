@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Port Scan Report</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background: #121212;
+            color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #00ff99;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: #1e1e1e;
+        }
+
+        th {
+            background: #00ff99;
+            color: black;
+            padding: 12px;
+        }
+
+        td {
+            border: 1px solid #333;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background: #2b2b2b;
+        }
+
+        .info {
+            margin-top: 10px;
+            padding: 10px;
+            background: #1e1e1e;
+            border-left: 5px solid #00ff99;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>Advanced Port Scan Report</h1>
+
+<div class="info">
+    <p><strong>Target:</strong> www.silveroakuni.ac.in</p>
+    <p><strong>Target IP:</strong> 104.21.58.78</p>
+    <p><strong>Scan Started:</strong> 2026-05-20 09:38:04.113841</p>
+    <p><strong>Total Open Ports:</strong> 2</p>
+</div>
+
+<table>
+    <tr>
+        <th>Port</th>
+        <th>Service</th>
+        <th>Banner</th>
+    </tr>
+
+    <tr>
+        <td>80</td>
+        <td>http</td>
+        <td>HTTP/1.1 403 Forbidden
+Date: Wed, 20 May 2026 04:08:20 GMT
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 16
+Connection: close
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+Server: cloudflare
+CF-RAY: 9fe87ac65968409c-SIN</td>
+    </tr>
+    
+    <tr>
+        <td>443</td>
+        <td>https</td>
+        <td>HTTP/1.1 400 Bad Request
+Server: cloudflare
+Date: Wed, 20 May 2026 04:08:20 GMT
+Content-Type: text/html
+Content-Length: 253
+Connection: close
+CF-RAY: -</td>
+    </tr>
+    
+</table>
+
+</body>
+</html>
